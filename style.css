@@ -55,8 +55,6 @@ body {
     margin-bottom: 1rem;
 }
 
-/*contenuti*/
-
 .site_header {
     width: 100%;
     margin-bottom: 1rem;
@@ -87,4 +85,26 @@ body {
 .site_footer {
     width: 100%;
     margin-top: 1rem;
+}
+
+/*contenuti*/
+
+.site_header>img {
+    width: 170px;
+    border-right: 1px solid #E5E5E5;
+    padding-right: 1rem;
+}
+
+.barra_navigazione {
+    padding: 1.5rem 0rem;
+}
+
+.nav_elem {
+    list-style-type: none;
+}
+
+.nav_elem>li {
+    display: inline-block;
+    padding-right: 0.4rem;
+    color: #8F8F8F;
 }
