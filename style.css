@@ -89,6 +89,8 @@ body {
 
 /*contenuti*/
 
+/*header*/
+
 .site_header>img {
     width: 170px;
     border-right: 1px solid #E5E5E5;
@@ -96,7 +98,8 @@ body {
 }
 
 .barra_navigazione {
-    padding: 1.5rem 0rem;
+    padding-top: 2rem;
+    padding-bottom: 0.7rem;
 }
 
 .nav_elem {
@@ -107,4 +110,12 @@ body {
     display: inline-block;
     padding-right: 0.4rem;
     color: #8F8F8F;
+}
+
+/*main*/
+
+.immagine_principale {
+    background-image: url("./img/banner.jpg");
+    background-position: center;
+    color: white;
 }
