@@ -135,3 +135,19 @@ aside {
 .site_title>div {
     color: #8F8F8F;
 }
+
+.aside_img {
+    height: 40%;
+}
+
+aside.left {
+    background-image: url("./img/img-1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+aside.center {
+    background-image: url("./img/banner-2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
