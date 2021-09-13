@@ -67,11 +67,11 @@ aside {
 }
 
 .left, .right {
-    width: 24%;
+    width: 18%;
 }
 
 .center {
-    width: 48%;
+    width: 60%;
     margin-left: 2%;
     margin-right: 2%;
 }
@@ -87,9 +87,8 @@ aside {
 
 /*header*/
 
-.site_header>img {
+.site_header img {
     width: 170px;
-    border-right: 1px solid #E5E5E5;
     padding-right: 1rem;
 }
 
@@ -105,6 +104,10 @@ aside {
 .nav_elem>li {
     display: inline-block;
     padding-right: 0.4rem;
+}
+
+.nav_elem a {
+    text-decoration: none;
     color: #8F8F8F;
 }
 
@@ -112,17 +115,22 @@ aside {
 
 .immagine_principale {
     width: 100%;
-    height: 450px;
+    height: 500px;
     margin-bottom: 2rem;
-    background-image: url("./img/banner.jpg");
+    background-image: url(./img/banner.jpg);
     background-position: center;
     background-color: lightgray;
     background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
-    border-radius: 1%;
-    padding-left: 2.5rem;
-    padding-top: 24%;
-    padding-right: 34rem;
+    border-radius: 15px;
+}
+
+.hero_text {
+    padding-left: 3rem;
+    padding-top: 21rem;
+    padding-right: 35rem;
 }
 
 .immagine_principale>h2, aside>h3 {
@@ -145,26 +153,23 @@ aside {
     width: 100%;
     background-color: lightgray;
     background-blend-mode: multiply;
-    border-radius: 3%;
+    border-radius: 15px;
     margin-bottom: 1rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .left>.aside_img {
     background-image: url("./img/img-1.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
 .center>.aside_img {
     background-image: url("./img/banner-2.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
 .right>.aside_img {
     background-image: url("./img/img-3.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
 aside h3 {
